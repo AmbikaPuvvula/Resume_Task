@@ -1,0 +1,144 @@
+#one{
+	background: #000;
+	color: #ddd;
+	padding: 1% 1% 1%;
+}
+.one{
+	background: #ddd;
+	color: #33F3FF ;
+	padding: 1%;
+	text-align: center;
+}
+.parent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.child{
+	width: 25%;
+	border: 1px solid #f7996d;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 10px 0px;
+	height: 400px;
+}
+.role{
+	color: #f03e6e;
+	font-style: italic;
+}
+.profile{
+	width: 40%;
+	height: 50%;
+	border: 1px solid #b5f1f5;
+	border-radius: 50px;
+}
+.link{
+	margin: 1%;
+	text-decoration: none;
+	font-size: 18px;
+	color: #5062b4;
+	text-align: center;
+}
+.info{
+	width: 5%;
+	text-align: center;
+	color: #ebb8f5;
+}
+.contact{
+	text-align: center;
+}
+.social{
+	width: 7%;
+	align-items: center;
+}
+.hinfo{
+	color: #84b1d9;
+}
+.child2{
+	width: 60%;
+	margin: 1%;
+	padding: 1%;
+	border: 1px solid #f7996d;
+	box-shadow: 0px 8px 8px -8px #000;
+}
+
+ul li{
+	font-size: 18px;
+}
+ul{
+	list-style-type: disc;
+}
+ol{
+	list-style-type: 1;
+}
+
+table{
+	width: 100%;
+}
+thead{
+	background: #000;
+	color: #fff;
+	padding: 1%;
+}
+
+.table-responsive{
+	overflow-x: auto;
+}
+.child2 span{
+	border-radius: 10px;
+	border:1px solid #5d6d7e;
+	background: #ddd;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 0px 8px 8px -8px #000;
+}
+
+
+
+/* Small Scale Devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.child{
+		width: 90%;
+		border: 1px solid #9ff5c0;
+		padding: 1%;
+		margin: 1%;
+		text-align: center;
+		box-shadow: 0px 8px 8px -8px #000;
+		border-radius: 10px 0px;
+		height: 480px;
+	}
+	.child2{
+		width: 90%;
+		margin: 1%;
+		padding: 1%;
+		border: 1px solid #9ff5c0;
+		box-shadow: 0px 8px 8px -8px #000;
+	}
+}
+
+/* Medium Scale Devices*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.child{
+		width: 90%;
+		border: 1px solid #9ff5c0;
+		padding: 1%;
+		margin: 1%;
+		text-align: center;
+		box-shadow: 0px 8px 8px -8px #000;
+		border-radius: 10px 0px;
+		height: 550px;
+	}
+	.child2{
+		width: 90%;
+		margin: 1%;
+		padding: 1%;
+		border: 1px solid #9ff5c0;
+		box-shadow: 0px 8px 8px -8px #000;
+	}
+}
+
+
